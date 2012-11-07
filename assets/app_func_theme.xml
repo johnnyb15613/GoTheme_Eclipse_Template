@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Theme version="1">
+    
+	<!-- Wallpaper name/Background color and transparency -->
+	<Wallpaper bg_color="#00000000" image="funbg">
+	</Wallpaper>
+	
+	<!-- folder thumbnail -->
+	<!-- folder thumbnail base -->
+	<!-- folder thumbnail cover (open) -->
+	<!-- folder thumbnail cover (close) -->
+	<Foldericon bottom="appfunc_folderback" top_open="appfunc_folder_open" top_closed="appfunc_folder_close_up">
+	</Foldericon>
+	
+	<!-- Folder -->
+	<!-- Folder deploy and protract mode -->
+	<!-- Editor of Folder deploy and protract mode -->
+	<!-- Folder contract button -->
+	<Folder bg_frame_image="folderopenback" bg_frame_way_of_drawing="1" editbox="appfunc_rename"
+		up_button="folderclose" up_button_selected="folder_close_light" line_enabled="1" 
+		folder_open_bg_color = "#66000000" bg_frame_image_bottom_heigth="34">
+	</Folder>
+	
+	<!-- All Tab -->
+	<!-- All Tab Background (vertical) -->
+	<!-- All Tab Background (horizontal) -->
+	<AllTabs bg_v_image="none" bg_h_image="none" bg_way_of_drawing="1">
+	</AllTabs>
+	
+	<!-- Single Tab -->
+	<!-- Single Tab Background (vertical) -->
+	<!-- Single Tab Background (horizontal) -->
+	<!-- Single Tab selection Pic (vertical) -->
+	<!-- Single Tab selection Pic (horizontal) -->
+	<!-- Single Tab click and focus Pic (vertical) -->
+	<!-- Single Tab click and focus Pic (horizontal) -->
+	<!-- Tab division switch -->
+	<!-- Tab screen switch -->
+	<Tab bg_v_image="tab_v" bg_h_image="tab_h" bg_way_of_drawing="2"
+		selected_v_image="tablight_v" selected_h_image="tablight_h" selected_way_of_drawing="2"
+		focused_v_image="tabfocused_v" focused_h_image="tabfocused_h" focused_way_of_drawing="2"
+		cutLine_enabled="0"  orientation_enabled="1">
+	</Tab>
+	
+	<!-- All Tab Icon -->
+	<!-- Unselected Icon -->
+	<!-- Selected Icon -->
+	<TabIcon name="AllApps" unselected="allapp" selected="allapp_selected">
+	</TabIcon>
+	
+	<!-- Recent Tab Icon -->
+	<!-- Unselected Icon -->
+	<!-- Selected Icon -->
+	<TabIcon name="RecentApps" unselected="history" selected="history_selected">
+	</TabIcon>
+	
+	<!-- Running Tab Icon -->
+	<!-- Unselected Icon -->
+	<!-- Selected Icon -->
+	<TabIcon name="Process" unselected="run" selected="run_selected">
+	</TabIcon>
+	
+	<!-- Tab name -->
+	<!-- Unselected font color -->
+	<!-- Selected font color -->
+	<!-- gap betweend fond and bottom(vertical) -->
+	<!-- gap betweend fond and bottom(horizontal) -->
+	<TabTitle unselected="#FFDBDBDB" selected="#FFFFFFFF" gap_v="16" gap_h="40">
+	</TabTitle>
+	
+	<!-- Home icon -->
+	<!-- Unselected Icon -->
+	<!-- Selected Icon -->
+	<!-- Background (vertical) -->
+	<!-- Background (horizontal) -->
+	<!-- Background Color -->
+	<Home unselected="appfunchome" selected="shortcut_light_iconbg" bg_v_image="homebg" bg_h_image="none"
+		bg_way_of_drawing="1" bg_color="#FF00000F">
+	</Home>
+	
+	<!-- Move to desk -->
+	<!-- Background (vertical) -->
+	<!-- Background (horizontal) -->
+	<!-- Font color -->
+	<MoveToDesk bg_v_image="appfunc_movetodesk" bg_h_image="none" bg_way_of_drawing="1"
+		bg_color="#FFFFFFFF">
+	</MoveToDesk>
+	
+	<!-- Clear History -->
+	<!-- Background (vertical) -->
+	<!-- Background (horizontal) -->
+	<!-- Background color -->
+	<ClearHistory bg_v_unselected_image="button_v"
+		bg_v_selected_image="button_v2" bg_h_selected_image="button_h2" bg_h_unselected_image="button_h"
+		bg_selected_way_of_drawing="1" bg_unselected_way_of_drawing="1" bg_color="#FFFFFFFF">
+	</ClearHistory>
+	
+	<!-- Close all programes -->
+	<!-- Background (vertical) -->
+	<!-- Background (horizontal) -->
+	<!-- font color -->
+	<CloseRunning bg_v_unselected_image="button_v"
+		bg_v_selected_image="button_v2" bg_h_selected_image="button_h2" bg_h_unselected_image="button_h"
+		bg_selected_way_of_drawing="1" bg_unselected_way_of_drawing="1" bg_color="#FFFFFFFF">
+	</CloseRunning>
+	
+	<Indicator indicator_h_current="appfunc_screennow" indicator_h="appfunc_screenother">
+	</Indicator>
+	
+	<!-- Application Font color -->
+	<!-- Application background(focus) color -->
+	<AppIcon text_color="#FFFFFFFF" text_bg_color="#FF007FEB"></AppIcon>
+	
+	<!-- Theme configuration -->
+	<!-- Grid Size -->
+	<AppSetting grid_format="1"></AppSetting>
+</Theme>
+
